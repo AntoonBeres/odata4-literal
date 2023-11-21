@@ -1,9 +1,19 @@
 {
   "compilerOptions": {
-    "sourceMap": true,
-    "target": "es5",
+    "target": "es6",
+    "module": "commonjs",
     "declaration": true,
-    "outDir": "lib"
+    "experimentalDecorators": true,
+    "outDir": "build",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "sourceMap": true,
+    "skipLibCheck": true
   },
   "exclude": [
     "lib",

@@ -1,5 +1,5 @@
 {
-  "name": "odata-v4-literal",
+  "name": "odata4-literal",
   "version": "0.1.1",
   "description": "OData V4 Literal conversion utility",
   "main": "lib/index.js",
@@ -12,26 +12,18 @@
     "pretest": "npm run build",
     "test": "mocha"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jaystack/odata-v4-literal.git"
-  },
   "keywords": [
     "OData",
     "server",
     "V4",
     "literal"
   ],
-  "author": "JayStack",
+  "author": "JayStack, Antoon Beres",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jaystack/odata-v4-literal/issues"
-  },
-  "homepage": "https://github.com/jaystack/odata-v4-literal#readme",
   "dependencies": {},
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^2.5.3",
-    "typescript": "^1.8.10"
+    "chai": "4.3.10",
+    "mocha": "^10.2.0",
+    "typescript": "^5.1.6"
   }
 }
